@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #1a1a1a; /* Dark gray background */
-  color: #fff; /* White text */
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark gray text */
 }
 
 section {
@@ -25,17 +25,18 @@ section {
   height: 50px;
   border-radius: 8px;
   overflow: hidden;
-  background-color: #333; /* Dark gray box */
+  background-color: #fff; /* White box */
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.1); /* Light shadow */
 }
 
 .fa-magnifying-glass {
   font-size: 25px;
-  color: #fff; /* White magnifying glass icon */
+  color: #555; /* Dark gray magnifying glass icon */
 }
 
 h1 {
   font-size: 40px;
-  color: #fff; /* White heading */
+  color: #333; /* Dark gray heading */
   margin-bottom: 1rem;
 }
 
@@ -46,23 +47,22 @@ h1 {
   padding: 0px 18px;
   font-size: 17px;
   outline: none;
-  background-color: #60a7d9;
-  color: #fff;
+  background-color: #f0f0f0; /* Light gray input background */
+  color: #333;
 }
 
 ::placeholder {
-  color: #fff;
-  opacity: 1; /* Firefox */
+  color: #777; /* Gray placeholder text */
 }
 
 .imgbox {
   height: 269px;
   width: 265px;
-  border: 1px solid #9e9e9e2e;
+  border: 1px solid #ddd; /* Light gray border */
   border-radius: 6px;
   margin-top: 1rem;
   overflow: hidden;
-  box-shadow: 0px 0px 4px -2px #888; /* Slight gray shadow */
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); /* Slight shadow */
 }
 
 .imgname {
@@ -71,14 +71,14 @@ h1 {
   align-items: center;
   justify-content: center;
   padding-top: 7px;
-  color: #fff; /* White text */
+  color: #444; /* Dark gray text */
   font-size: 16px;
   height: 30px;
 }
 
 #search_btn {
   border: none;
-  background: #3b94d2;
+  background: #4caf50; /* Green button */
   height: 100%;
   font-size: 15px;
   padding: 0px 18px;
@@ -104,7 +104,7 @@ h1 {
 }
 
 .imgElement:hover .imgbox {
-  background-color: #444; /* Dark gray on hover */
+  background-color: #eee; /* Light gray on hover */
 }
 
 #showmore {
@@ -115,16 +115,16 @@ h1 {
   transition: background-color 0.2s, transform 0.3s;
   padding: 10px 20px;
   border-radius: 100px;
-  background: #cfef00; /* Yellow */
+  background: #ff9800; /* Orange button */
   border: 1px solid transparent;
   display: flex;
   align-items: center;
   font-size: 15px;
-  color: #333; /* Dark gray text */
+  color: #fff; /* White text */
 }
 
 #showmore:hover {
-  background: #c4e201; /* Dark yellow on hover */
+  background: #fb8c00; /* Darker orange on hover */
 }
 
 #showmore > svg {
